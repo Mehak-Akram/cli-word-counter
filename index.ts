@@ -3,7 +3,7 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 
-console.log(chalk.bold.cyanBright("\n\t\tWORD COUNTER"))
+console.log(chalk.bold.cyanBright("\n\t\tMEHAK - WORD COUNTER"))
 
 console.log("=".repeat(60))
 
@@ -12,7 +12,7 @@ const anwers : {
 } = await inquirer.prompt([{
     name : "sentence", 
     types : "input",
-    message : "Enter you sentence to count the words"
+    message : "Enter your sentence to count the words:"
 }])
 
 
